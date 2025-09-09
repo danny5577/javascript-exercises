@@ -1,4 +1,6 @@
-const palindromes = function () {
+const palindromes = function (str) {
+     const newStr = str.split('').reverse().join('');
+     return newStr === str;
 
 };
 
